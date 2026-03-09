@@ -1,0 +1,152 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+h1 {
+
+    margin-bottom: 20px;
+
+}
+
+.timer {
+
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+
+}
+
+#time {
+
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+button {
+
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+button:hover {
+
+    background: #45a049;
+
+}
+
+.tasks {
+
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.history {
+
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.chart {
+
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+input {
+
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+
+}
+
+ul {
+
+    list-style: none;
+    padding: 0;
+
+}
+
+li {
+
+    background: #eee;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.dark-btn {
+
+    background: #333;
+    margin-bottom: 15px;
+
+}
+
+
+/* DARK MODE */
+
+.dark-mode {
+
+    background: #121212;
+    color: white;
+
+}
+
+.dark-mode .timer,
+.dark-mode .tasks,
+.dark-mode .history,
+.dark-mode .chart {
+
+    background: #1e1e1e;
+
+}
+
+.dark-mode li {
+
+    background: #2c2c2c;
+
+}
+
+.dark-mode button {
+
+    background: #555;
+
+}
+
+.dark-mode button:hover {
+
+    background: #777;
+
+}

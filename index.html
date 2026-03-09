@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Study Focus Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Study Focus Tracker</h1>
+
+        <!-- DARK MODE BUTTON -->
+        <button onclick="toggleDarkMode()" class="dark-btn">
+            Toggle Dark Mode
+        </button>
+
+        <!-- TIMER -->
+        <div class="timer">
+
+            <h2 id="time">25:00</h2>
+
+            <button onclick="startTimer()">Start</button>
+            <button onclick="pauseTimer()">Pause</button>
+            <button onclick="resetTimer()">Reset</button>
+
+        </div>
+
+
+        <!-- TASK MANAGER -->
+        <div class="tasks">
+
+            <h2>Study Tasks</h2>
+
+            <input type="text" id="taskInput" placeholder="Enter study task">
+
+            <button onclick="addTask()">Add Task</button>
+
+            <ul id="taskList"></ul>
+
+        </div>
+
+
+        <!-- STUDY HISTORY -->
+        <div class="history">
+
+            <h2>Study History</h2>
+
+            <ul id="historyList"></ul>
+
+        </div>
+
+
+        <!-- PRODUCTIVITY CHART -->
+        <div class="chart">
+
+            <h2>Weekly Productivity</h2>
+
+            <canvas id="studyChart"></canvas>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
